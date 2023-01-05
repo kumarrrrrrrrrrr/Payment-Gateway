@@ -33,11 +33,11 @@ function App() {
   }
   return (
     <div className="App">
-     <h2>Razorpay Payment Gateway Using React</h2>
+     <h1 className='react'>Razorpay Payment Gateway - React App</h1>
      <br/>
-     <input type="text"placeholder='Enter Amount'value={amount}onChange={(e)=>setamount(e.target.value)} />
+     <input type="text"placeholder='Enter the Amount'value={amount}onChange={(e)=>setamount(e.target.value)} />
      <br/><br/>
-     <button onClick={handleSubmit}>submit</button>
+     <button className='fire' onClick={handleSubmit}>submit</button>
     </div>
   );
 }

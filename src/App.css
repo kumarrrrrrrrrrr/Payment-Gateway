@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+.react {
+  color: purple;
+}
+
+.fire {
+  background-color:rgb(60, 121, 159) ;
+}
